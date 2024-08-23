@@ -10,7 +10,7 @@ const userRoutes = require('./routes/user.js')
 
 
 app.use(cors({
-    origin: [""],
+    origin: ["https://home-rental-application-fapf.vercel.app"],
     methods: ["POST",'GET'],
     credentials: true}
 ))
